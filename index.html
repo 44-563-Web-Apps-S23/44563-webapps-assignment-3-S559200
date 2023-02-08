@@ -58,6 +58,21 @@
         <td> 14</td>
     </tr>
 </table>
+<hr>
+<h1>Code Display</h1>
+<blockquote cite="https://stackoverflow.com/questions/20482235/get-image-height-and-width-with-php "> quoted text </blockquote > 
+    <pre>
+        <?php
+
+        list($width, $height, $type, $attr) = getimagesize("url/to/image.jpg");
+      
+        echo "Image width " . $width;
+        echo "Image height " . $height;
+        echo "Image type " . $type;
+        echo "Attribute " . $attr;
+      
+      ?>
+</pre>      
 
 </body>
 </html>
